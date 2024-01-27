@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: radial-gradient(rgba(120,200,90),rgba(70,120,210));
+}
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.bigcontainer {
+    height: 550px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 493px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: lightgrey;
+}
+.fixSize{
+    height: 500px;
+    width: 550px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: lightgrey;
+    border: 1px solid grey;
+
+}
+.numBox {
+    height: 50px;
+    width: 353px;
+    padding: 0.5vh;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 37px;
+    background-color: lightgray;
+    border-radius: 20px;
+    cursor: not-allowed;
+}
+.numBoxX{
+    border:2px solid black;
+}
+.toggle{
+    cursor: text;
+}
+.togglebtn {
+    margin-left: 13px;
+    height: 70px;
+    width: 84px;
+    border-radius: 77px;
+    position: relative;
+    bottom: 10px;
+}
+.togglebtn{
+    cursor: pointer;
+    background-color: lightblue;
+    border:2px solid black;
+}
+.togglebtnX:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    border:1px solid grey;
+    transition: 0.3s;
+}
+.allbuttons {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 288px;
+    grid-gap: 10px 10px;
+}
+
+.twoBtn {
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.num {
+    border-radius: 40px;
+    font-size: 30px;
+    border:none;
+    background-color: lightblue;
+}
+.numX:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    border:1px solid grey;
+    transition: 0.3s;
+}
+
+.clearNum{
+    border-radius: 40px;
+    background-color: lightblue;
+    font-size: 30px;
+    border:none;
+}
+.clearNumX:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+    border:1px solid grey;
+}
+
+.allClear {
+    height: 55px;
+    width: 114px;
+    border-radius: 41px;
+    font-size: 30px;
+    border:none;
+    background-color: lightblue;
+}
+.allClearX:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+    border:1px solid grey;
+}
+.equalTo {
+    height: 55px;
+    width: 114px;
+    border-radius: 41px;
+    font-size: 30px;
+    border:none;
+    background-color: lightblue;
+}
+.equalToX:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+    border:1px solid grey;
+}
